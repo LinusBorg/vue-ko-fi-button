@@ -3,8 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "serve": "vue-cli-service serve demo/main.js",
+    "build": "rimraf -r packages/dist && vue-compile src/KoFiButton.vue -o package/dist/es5/KoFiButton.vue && yarn copy",
+    "copy": "cd package/dist && mkdir es6 && cp ../../src/KoFiButton.vue es6/KoFiButton.vue",
     "lint": "vue-cli-service lint",
     "test:unit": "vue-cli-service test:unit"
   },
@@ -15,16 +16,17 @@
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.5.0",
     "@vue/cli-plugin-eslint": "^3.5.0",
-    "@vue/cli-plugin-unit-jest": "^3.5.0",
     "@vue/cli-service": "^3.5.0",
     "@vue/eslint-config-prettier": "^4.0.1",
-    "@vue/test-utils": "1.0.0-beta.29",
     "babel-core": "7.0.0-bridge.0",
     "babel-eslint": "^10.0.1",
     "babel-jest": "^23.6.0",
     "eslint": "^5.8.0",
     "eslint-plugin-vue": "^5.0.0",
     "lint-staged": "^8.1.4",
+    "np": "^4.0.2",
+    "rimraf": "^2.6.3",
+    "vue-compile": "^0.5.3",
     "vue-template-compiler": "^2.5.21"
   },
   "gitHooks": {
