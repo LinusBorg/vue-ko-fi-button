@@ -1,14 +1,19 @@
 {
   "name": "vue-ko-fi-button",
-  "version": "0.1.0",
+  "version": "0.0.0",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve demo/main.js",
     "build": "rimraf -r packages/dist && vue-compile src/KoFiButton.vue -o package/dist/es5/KoFiButton.vue && yarn copy",
     "copy": "cd package/dist && mkdir es6 && cp ../../src/KoFiButton.vue es6/KoFiButton.vue",
     "lint": "vue-cli-service lint",
-    "test:unit": "vue-cli-service test:unit"
+    "publish": "np"
   },
+  "np": {
+		"yarn": false,
+    "contents": "package",
+    "publish": false
+	},
   "dependencies": {
     "core-js": "^2.6.5",
     "vue": "^2.6.6"
