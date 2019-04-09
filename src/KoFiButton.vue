@@ -10,6 +10,7 @@
       class="kofi-button"
       :href="href"
       target="_blank"
+      rel="nofollow noopener"
     >
       <span class="kofitext">
         <img src="https://ko-fi.com/img/cuplogo.svg" class="kofiimg" />
@@ -38,7 +39,7 @@ export default {
   },
   computed: {
     href() {
-      return `http://ko-fi.com/${this.id}`
+      return `http://ko-fi.com/${this.username}`
     },
   },
 }
