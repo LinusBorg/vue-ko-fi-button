@@ -9,7 +9,7 @@
     "build": "rimraf package/dist && yarn build:compile && yarn build:browser && yarn copy",
     "copy": "cd package/dist && mkdir es6 && cp ../../src/KoFiButton.vue es6/KoFiButton.vue",
     "lint": "vue-cli-service lint",
-    "publish": "np"
+    "release": "np"
   },
   "np": {
 		"yarn": false,
