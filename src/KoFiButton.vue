@@ -27,7 +27,7 @@ export default {
       type: String,
       default: '#488EB1',
     },
-    id: {
+    username: {
       type: String,
       required: true,
     },
