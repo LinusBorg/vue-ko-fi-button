@@ -18,13 +18,20 @@ npm i -D @linusborg/vue-ko-fi-button
 yarn add -D @linusborg/vue-ko-fi-button
 ```
 
-### USage in the browser
+## ES5/ES6
+
+* The package's main export is a .vue File containing ES5 code (IE-compatible).
+* If you want to use the ES6-version directly, import from ''@linusborg/vue-ko-fi-button/es6/KoFiButton.vue'`
+
+### In the browser
+
+The package also comes with a UMD build if you really need to include it with a `<script>` element.
 
 ```html
 <script src="https://unpkg.com/@linusborg/vue-ko-fi-button/umd/VueKoFiButton.umd.min.js"></script>
 ```
 
-The component will be avaliable as `window.VueKoFiButon`.
+The component will be avaliable as `window.VueKoFiButton`.
 
 ## Usage
 
@@ -52,40 +59,41 @@ export default {
 <details>
   <summary>Boring details about this project's dev setup</summary>
 
-## Project setup
+### Setup
 
 ```bash
 yarn install
 ```
 
-### Compiles and hot-reloads for development
+### Compiles and hot-reloads for demo/development
 
 ```bash
-yarn run serve
+yarn serve
 ```
 
 ### Compiles and minifies for production
 
 ```bash
-yarn run build
-```
-
-### Run your tests
-
-```bash
-yarn run test
+yarn build
 ```
 
 ### Lints and fixes files
 
 ```bash
-yarn run lint
+yarn lint
 ```
 
-### Run your unit tests
+### Run unit tests
 
 ```bash
-yarn run test:unit
+yarn test:unit
+```
+
+### Releae a new version
+
+```bash
+
+yarn relase
 ```
 
 ### Customize configuration
