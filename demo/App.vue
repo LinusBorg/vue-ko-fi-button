@@ -2,7 +2,7 @@
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png" />
     <br />
-    <KoFiButton title="Givese me Moneys!" color="#CCC" id="123" />
+    <KoFiButton title="Givese me Moneys!" color="#CCC" username="linusborg" />
   </div>
 </template>
 
