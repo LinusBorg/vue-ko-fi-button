@@ -1,6 +1,6 @@
 {
   "name": "vue-ko-fi-button",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "private": false,
   "description": "A Ko-fi button Vue component",
   "keywords": ["vue", "vue.js", "component", "ko-fi.com"],

@@ -1,6 +1,6 @@
 {
   "name": "vue-ko-fi-button",
-  "version": "0.1.0",
+  "version": "0.0.0",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve demo/main.js",
@@ -14,7 +14,7 @@
   "np": {
     "yarn": false,
     "contents": "package",
-    "publish": false
+    "publish": true
   },
   "dependencies": {
     "core-js": "^2.6.5",
