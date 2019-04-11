@@ -1,6 +1,7 @@
 {
   "name": "@linusborg/vue-ko-fi-button",
   "version": "0.0.0",
+  "licence": "Apache-2.0",
   "description": "A Ko-fi button Vue component",
   "keywords": ["vue", "vue.js", "component", "ko-fi.com"],
   "repository": {
@@ -22,6 +23,6 @@
     "access": "public"
   },
   "np": {
-    "yarn": true,
+    "yarn": true
   }
 }
