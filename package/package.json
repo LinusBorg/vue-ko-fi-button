@@ -5,7 +5,7 @@
   "keywords": ["vue", "vue.js", "component", "ko-fi.com"],
   "repository": {
     "type": "git",
-    "url": "https://github.com/linusborg/ko-fi-button"
+    "url": "https://github.com/linusborg/vue-ko-fi-button"
   },
   "author": {
     "name": "Thorsten Lünborg",
