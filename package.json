@@ -9,7 +9,7 @@
     "build:browser": "vue-cli-service build --target lib --formats umd-min --name VueKoFiButton --dest package/dist/umd --no-clean src/KoFiButton.vue",
     "copy": "cp README.md package/README.md && cd package/dist && mkdir es6 && cp ../../src/KoFiButton.vue es6/KoFiButton.vue",
     "lint": "vue-cli-service lint",
-    "release": "np"
+    "release": "cd package && np"
   },
   "np": {
     "yarn": false,
