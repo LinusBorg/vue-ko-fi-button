@@ -13,16 +13,20 @@
     "url": "https://github.com/linusborg"
   },
   "main": "dist/es5/KoFiButton.vue",
+  "unpkg": "dist/umd/VueKoFiButton.umd.min.js",
+  "jsDelivr": "dist/umd/VueKoFiButton.umd.min.js",
   "files": [
     "dist"
   ],
   "scripts": {
-    "release": "../node_modules/./bin/np"
+    "release": "../node_modules/./bin/np",
+    "test": "cd .. && yarn test:unit"
   },
   "publishConfig": {
     "access": "public"
   },
   "np": {
-    "yarn": true
+    "yarn": true,
+    "publish": false
   }
 }

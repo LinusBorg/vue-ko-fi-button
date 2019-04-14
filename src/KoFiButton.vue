@@ -39,7 +39,7 @@ export default {
   },
   computed: {
     href() {
-      return `http://ko-fi.com/${this.username}`
+      return `https://ko-fi.com/${this.username}`
     },
   },
 }
