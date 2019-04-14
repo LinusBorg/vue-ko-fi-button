@@ -30,7 +30,6 @@
     "eslint": "^5.8.0",
     "eslint-plugin-vue": "^5.0.0",
     "lint-staged": "^8.1.4",
-    "np": "^4.0.2",
     "rimraf": "^2.6.3",
     "vue-compile": "^0.5.3",
     "vue-template-compiler": "^2.5.21"
@@ -43,15 +42,5 @@
       "vue-cli-service lint",
       "git add"
     ]
-  },
-  "np": {
-    "yarn": true,
-    "contents": "package",
-    "publish": false,
-    "anyBranch": true,
-    "cleanup": false
-  },
-  "publishConfig": {
-    "access": "public"
   }
 }

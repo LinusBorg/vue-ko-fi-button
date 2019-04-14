@@ -18,17 +18,4 @@
   "files": [
     "dist"
   ],
-  "scripts": {
-    "release": "../node_modules/./bin/np",
-    "test": "cd .. && yarn test:unit"
-  },
-  "publishConfig": {
-    "access": "public"
-  },
-  "np": {
-    "yarn": true,
-    "publish": false,
-    "anyBranch": true,
-    "cleanup": false
-  }
 }
