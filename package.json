@@ -1,5 +1,6 @@
 {
-  "name": "vue-ko-fi-button",
+  "name": "@linusborg/vue-ko-fi-button",
+  "version": "0.0.0",
   "license": "Apache-2.0",
   "private": true,
   "scripts": {
@@ -9,7 +10,7 @@
     "build:browser": "vue-cli-service build --target lib --formats umd-min --name VueKoFiButton --dest package/dist/umd --no-clean src/KoFiButton.vue",
     "build:compile": "vue-compile src/KoFiButton.vue -o package/dist/es5/KoFiButton.vue",
     "copy": "cp README.md package/README.md && cd package/dist && mkdir es6 && cp ../../src/KoFiButton.vue es6/KoFiButton.vue",
-    "release": "cd package && np",
+    "release": "np",
     "test:unit": "vue-cli-service test:unit"
   },
   "dependencies": {
@@ -44,8 +45,13 @@
     ]
   },
   "np": {
-    "yarn": false,
+    "yarn": true,
     "contents": "package",
-    "publish": false
+    "publish": false,
+    "anyBranch": true,
+    "cleanup": false
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

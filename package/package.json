@@ -27,6 +27,8 @@
   },
   "np": {
     "yarn": true,
-    "publish": false
+    "publish": false,
+    "anyBranch": true,
+    "cleanup": false
   }
 }
