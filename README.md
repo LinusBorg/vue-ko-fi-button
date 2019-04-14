@@ -4,31 +4,37 @@
 
 ## About
 
-I'm not working for www.ko-fi.com or am in any other way affiliated with them except for using their service.
+**Disclaimer**: I'm not working for www.ko-fi.com or am in any other way affiliated with them except for using their service. 
 
 I created this component because I wanted to implement their [button widget](https://ko-fi.com/Manage/Widgets) into my Vue apps, but found it difficult to do so.
 
-So I'm using their CSS with very little tweaks, and of course link to their images. I hope that's cool with them.
+It looks  kind of like this (even though this one is the static version for markdown):
+
+<a href='https://ko-fi.com/R6R7QW4D' target='_blank'>
+  <img height='36' style='border:0px;height:36px;' src='https://az743702.vo.msecnd.net/cdn/kofi3.png?v=2' border='0' alt='Buy Me a Coffee at ko-fi.com' />
+</a>
+
+I'm using their CSS with very little tweaks, and of course link to their images. I hope that's cool with them.
 
 ## Install
 
 ```bash
-npm i -D vue-ko-fi-button
+npm i -D @linusborg/vue-ko-fi-button
 # or
-yarn add -D vue-ko-fi-button
+yarn add -D @linusborg/vue-ko-fi-button
 ```
 
 ## ES5/ES6
 
 * The package's main export is a .vue File containing ES5 code (IE-compatible).
-* If you want to use the ES6-version directly, import from ''vue-ko-fi-button/es6/KoFiButton.vue'`
+* If you want to use the ES6-version directly, import from `'@linusborg/vue-ko-fi-button/es6/KoFiButton.vue'`
 
 ### In the browser
 
 The package also comes with a UMD build if you really need to include it with a `<script>` element.
 
 ```html
-<script src="https://unpkg.com/vue-ko-fi-button/umd/VueKoFiButton.umd.min.js"></script>
+<script src="https://unpkg.com/@linusborg/vue-ko-fi-button/umd/VueKoFiButton.umd.min.js"></script>
 ```
 
 The component will be avaliable as `window.VueKoFiButton`.
@@ -44,7 +50,7 @@ The component will be avaliable as `window.VueKoFiButton`.
   />
 </template>
 <script>
-import KoFiButton from 'vue-ko-fi-button'
+import KoFiButton from '@linusborg/vue-ko-fi-button'
 export default {
   name: 'YourComponent',
   components: {
@@ -89,7 +95,7 @@ yarn lint
 yarn test:unit
 ```
 
-### Releae a new version
+### Release a new version
 
 ```bash
 

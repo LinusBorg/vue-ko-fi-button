@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HelloWorld.vue renders with custom title 1`] = `
+<div class="kofi-btn-container"><a title="Gimme my moneys" href="https://ko-fi.com/linusborg" target="_blank" rel="nofollow noopener" class="kofi-button" style="background-color: rgb(72, 142, 177);"><span class="kofitext"><img src="https://ko-fi.com/img/cuplogo.svg" class="kofiimg">
+      Gimme my moneys
+    </span></a></div>
+`;
+
+exports[`HelloWorld.vue renders with default message 1`] = `
+<div class="kofi-btn-container"><a title="Support Me on Ko-fi" href="https://ko-fi.com/linusborg" target="_blank" rel="nofollow noopener" class="kofi-button" style="background-color: rgb(72, 142, 177);"><span class="kofitext"><img src="https://ko-fi.com/img/cuplogo.svg" class="kofiimg">
+      Support Me on Ko-fi
+    </span></a></div>
+`;
