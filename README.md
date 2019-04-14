@@ -4,11 +4,17 @@
 
 ## About
 
-I'm not working for www.ko-fi.com or am in any other way affiliated with them except for using their service.
+**Disclaimer**: I'm not working for www.ko-fi.com or am in any other way affiliated with them except for using their service. 
 
 I created this component because I wanted to implement their [button widget](https://ko-fi.com/Manage/Widgets) into my Vue apps, but found it difficult to do so.
 
-So I'm using their CSS with very little tweaks, and of course link to their images. I hope that's cool with them.
+It looks  kind of like this (even though this one is the static version for markdown):
+
+<a href='https://ko-fi.com/R6R7QW4D' target='_blank'>
+  <img height='36' style='border:0px;height:36px;' src='https://az743702.vo.msecnd.net/cdn/kofi3.png?v=2' border='0' alt='Buy Me a Coffee at ko-fi.com' />
+</a>
+
+I'm using their CSS with very little tweaks, and of course link to their images. I hope that's cool with them.
 
 ## Install
 
