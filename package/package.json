@@ -1,18 +1,21 @@
 {
-  "name": "vue-ko-fi-button",
-  "version": "0.1.0",
+  "name": "@linusborg/vue-ko-fi-button",
+  "version": "0.0.0",
+  "licence": "Apache-2.0",
   "description": "A Ko-fi button Vue component",
   "keywords": ["vue", "vue.js", "component", "ko-fi.com"],
   "repository": {
     "type": "git",
-    "url": "https://github.com/linusborg/ko-fi-button"
+    "url": "https://github.com/linusborg/vue-ko-fi-button"
   },
   "author": {
     "name": "Thorsten Lünborg",
     "url": "https://github.com/linusborg"
   },
   "main": "dist/es5/KoFiButton.vue",
+  "unpkg": "dist/umd/VueKoFiButton.umd.min.js",
+  "jsDelivr": "dist/umd/VueKoFiButton.umd.min.js",
   "files": [
     "dist"
-  ]
+  ],
 }
